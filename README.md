@@ -181,7 +181,7 @@ evaluator.plot_confusion_matrix(X_test, y_test)
 
 ## 📓 7. Interactive Demo Notebook
 
-### [`Financial_Crime_Detection_Demo.ipynb`](./AML_Demo.ipynb)
+### [`AML_Demo.ipynb`](./AML_Demo.ipynb)
 
 Includes:
 
