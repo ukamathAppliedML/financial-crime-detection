@@ -10,15 +10,17 @@ This script demonstrates how to use the financial crime detection package for:
 Currently demonstrated with AML (Anti-Money Laundering) use case.
 """
 
-from src import (
+from src.utils import (
     load_fincrime_dataset, 
     prepare_data_splits, 
     print_dataset_summary,
-    FinCrimeModel,
-    FinCrimePredictor, 
-    FinCrimeEvaluator,
     TEST_EXAMPLES
 )
+
+from src.model import FinCrimeModel
+from src.predictor import FinCrimePredictor
+from src.evaluator import FinCrimeEvaluator
+
 import pandas as pd
 
 
