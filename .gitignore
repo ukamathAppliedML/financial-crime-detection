@@ -1,3 +1,4 @@
 .devcontainer
-trained_model
+/notebook/notebook_trained_model
 *.pyc
+*.egg-info/
